@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-p navbar-expand-lg bg-white shadow" style="position: fixed; width: 100%;">
+        <a href="index.html" class="navbar-brand px-4 px-lg-5">
+            <h2 class="color-primary">E-Learning</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#course">Courses</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown">
+                        More Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#team">Team</a></li>
+                        <li><a class="dropdown-item" href="#testi">Testimonial</a></li>
+                        <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block ml-3 text-white">Join Now</a>
+        </div>
+    </nav>
+    
+    <div class="container-fluid p-0 mb-5">
+        <!-- Swiper Container -->
+        <div class="swiper-container header-banner-slider">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="header-banner position-relative">
+                        <img class="img-fluid" src="images/jumbotron.png" alt="">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+                            <div class="container">
+                                <div class="row justify-content-start">
+                                    <div class="col-sm-10 col-lg-8">
+                                        <h5 class="color-primary text-uppercase mb-3">Best Online Courses</h5>
+                                        <h1 class="display-3 text-white" data-aos="fade-down">The Best Online Learning Platform</h1>
+                                        <p class="fs-5 text-white mb-4 pb-2" data-aos="fade-down" data-aos-delay="150">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 text-white">Read More</a>
+                                        <a href="#" class="btn btn-light py-md-3 px-md-5 rounded-0">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="header-banner position-relative">
+                        <img class="img-fluid" src="images/jumbotron2.png" alt="">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+                            <div class="container">
+                                <div class="row justify-content-start">
+                                    <div class="col-sm-10 col-lg-8">
+                                        <h5 class="color-primary text-uppercase mb-3">Best Online Courses</h5>
+                                        <h1 class="display-3 text-white" data-aos="fade-down">Join Us for Better Learning</h1>
+                                        <p class="fs-5 text-white mb-4 pb-2" data-aos="fade-down" data-aos-delay="150">Explore new knowledge and skills. Our platform offers a wide range of online courses for your success.</p>
+                                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 text-white">Discover More</a>
+                                        <a href="#" class="btn btn-light py-md-3 px-md-5 rounded-0">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group-pagination">
+                <div class="swiper-button-next mb-3"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container-xl py-5">
+        <div class="wrapper">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6" data-delay="0.1s">
+                    <div class="feature-card text-center pt-3" data-aos="fade-down" data-aos-delay="50">
+                        <div class="content p-4">
+                            <i class="bi bi-mortarboard-fill size-icon color-primary"></i>
+                            <h5 class="heading mb-3">Expert Teachers</h5>
+                            <p>Elitr diam sed justo ipsum amet kasd dolor clita diam rebum sed et elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-delay="0.3s">
+                    <div class="feature-card text-center pt-3" data-aos="fade-down" data-aos-delay="150">
+                        <div class="content p-4">
+                            <i class="bi bi-globe size-icon color-primary"></i>
+                            <h5 class="heading mb-3">Virtual Learning</h5>
+                            <p>Elitr diam sed justo ipsum amet kasd dolor clita diam rebum sed et elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-delay="0.5s">
+                    <div class="feature-card text-center pt-3" data-aos="fade-down" data-aos-delay="250">
+                        <div class="content p-4">
+                            <i class="bi bi-house size-icon color-primary"></i>
+                            <h5 class="heading mb-3">DIY Projects</h5>
+                            <p>Elitr diam sed justo ipsum amet kasd dolor clita diam rebum sed et elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-delay="0.7s">
+                    <div class="feature-card text-center pt-3" data-aos="fade-down" data-aos-delay="350">
+                        <div class="content p-4">
+                            <i class="bi bi-book size-icon color-primary"></i>
+                            <h5 class="heading mb-3">Extensive Library</h5>
+                            <p>Elitr diam sed justo ipsum amet kasd dolor clita diam rebum sed et elitr.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xl py-5" id="aboutus">
+        <div class="">
+            <div class="row">
+                <div class="col-lg-6 mb-4" style="min-height: 400px;">
+                    <div class="h-100 position-relative">
+                        <img class="img-fluid w-100 h-100 position-absolute" src="images/about-us.png" alt="About Us" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6" >
+                    <h6 class="text-start color-primary">Tentang Kami</h6>
+                    <h1 class="main-heading mb-4">Laurent Cynthia Casandra</h1>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6 mt-0">
+                            <p class="feature-item mb-0"><i class="bi bi-arrow-right-short color-primary fs-4 position-icon-arrow"></i>Laurent Cynthia Casandra</p>
+                        </div>
+                        <div class="col-sm-6 mt-0">
+                            <p class="feature-item mb-0"><i class="bi bi-arrow-right-short color-primary fs-4 position-icon-arrow"></i>825230031</p>
+                        </div>
+                        <div class="col-sm-6 mt-0">
+                            <p class="feature-item mb-0"><i class="bi bi-arrow-right-short color-primary fs-4 position-icon-arrow"></i>SI A</p>
+                        </div>
+                        <div class="col-sm-6 mt-0">
+                            <p class="feature-item mb-0"><i class="bi bi-arrow-right-short color-primary fs-4 position-icon-arrow"></i>Angkatan 2023</p>
+                        </div>
+                        <div class="col-sm-6 mt-0">
+                            <p class="feature-item mb-0"><i class="bi bi-arrow-right-short color-primary fs-4 position-icon-arrow"></i>Teknik Informatika</p>
+                        </div>
+                        <div class="col-sm-6 mt-0">
+                            <p class="feature-item mb-0"><i class="bi bi-arrow-right-short color-primary fs-4 position-icon-arrow"></i>Sistem Informasi</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2 text-white" href="#">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xl py-5">
+        <div class="">
+            <div class="text-center" data-aos="fade-up">
+                <h6 class="text-center color-primary px-3">Kategori</h6>
+                <h1 class="mb-5">Kategori Kursus</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12">
+                            <a class="position-relative d-block zoom-hover" href="#" data-aos="zoom-in" data-aos-delay="150">
+                                <img class="img-fluid" src="images/categories1.png">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Desain Web</h5>
+                                    <small class="color-primary">49 Kursus</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a class="position-relative d-block zoom-hover" href="#" data-aos="zoom-in" data-aos-delay="250">
+                                <img class="img-fluid" src="images/categories2.png">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Desain Grafis</h5>
+                                    <small class="color-primary">49 Kursus</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a class="position-relative d-block zoom-hover" href="#" data-aos="zoom-in" data-aos-delay="350">
+                                <img class="img-fluid" src="images/categories3.png">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Pengeditan Video</h5>
+                                    <small class="color-primary">49 Kursus</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden zoom-hover" href="#" data-aos="zoom-in" data-aos-delay="450">
+                        <img class="img-fluid position-absolute w-100 h-100" src="images/categories4.png" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                            <h5 class="m-0">Pemasaran Daring</h5>
+                            <small class="color-primary">49 Kursus</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-xl py-5" id="course">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="bg-white text-center color-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="background-light">
+                        <div class="position-relative overflow-hidden zoom-hover">
+                            <img class="img-fluid" src="images/course1.png" alt="">
+                            <div class="d-flex justify-content-center align-items-center text-center mx-auto w-100 position-relative">
+                                <div class="btn btn-primary d-flex justify-content-center align-items-center rounded-pill" 
+                                    style="position: absolute; top: -35px; left: 50%; transform: translate(-50%, -50%); width: max-content;">
+                                    <a href="#" class="text-white px-3 border-end rounded-start text-decoration-none">Read More</a>
+                                    <a href="#" class="text-white px-3 text-decoration-none">Join Now</a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <span>(123)</span>
+                            </div>
+                            <h5>Web Design & Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <span class="flex-fill text-center border-end py-2"><i class="bi bi-person-fill color-primary me-2"></i>John Doe</span>
+                            <span class="flex-fill text-center border-end py-2"><i class="bi bi-clock color-primary me-2"></i>1.49 Hrs</span>
+                            <span class="flex-fill text-center py-2"><i class="bi bi-people-fill color-primary me-2"></i>30 Students</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="background-light">
+                        <div class="position-relative overflow-hidden zoom-hover">
+                            <img class="img-fluid" src="images/course2.png" alt="">
+                            <div class="d-flex justify-content-center align-items-center text-center mx-auto w-100 position-relative">
+                                <div class="btn btn-primary d-flex justify-content-center align-items-center rounded-pill" 
+                                    style="position: absolute; top: -35px; left: 50%; transform: translate(-50%, -50%); width: max-content;">
+                                    <a href="#" class="text-white px-3 border-end rounded-start text-decoration-none">Read More</a>
+                                    <a href="#" class="text-white px-3 text-decoration-none">Join Now</a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <span>(123)</span>
+                            </div>
+                            <h5>Web Design & Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <span class="flex-fill text-center border-end py-2"><i class="bi bi-person-fill color-primary me-2"></i>John Doe</span>
+                            <span class="flex-fill text-center border-end py-2"><i class="bi bi-clock color-primary me-2"></i>1.49 Hrs</span>
+                            <span class="flex-fill text-center py-2"><i class="bi bi-people-fill color-primary me-2"></i>30 Students</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="background-light">
+                        <div class="position-relative overflow-hidden zoom-hover">
+                            <img class="img-fluid" src="images/course3.png" alt="">
+                            <div class="d-flex justify-content-center align-items-center text-center mx-auto w-100 position-relative">
+                                <div class="btn btn-primary d-flex justify-content-center align-items-center rounded-pill" 
+                                    style="position: absolute; top: -35px; left: 50%; transform: translate(-50%, -50%); width: max-content;">
+                                    <a href="#" class="text-white px-3 border-end rounded-start text-decoration-none">Read More</a>
+                                    <a href="#" class="text-white px-3 text-decoration-none">Join Now</a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <i class="bi bi-star-fill color-primary"></i>
+                                <span>(123)</span>
+                            </div>
+                            <h5>Web Design & Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <span class="flex-fill text-center border-end py-2"><i class="bi bi-person-fill color-primary me-2"></i>John Doe</span>
+                            <span class="flex-fill text-center border-end py-2"><i class="bi bi-clock color-primary me-2"></i>1.49 Hrs</span>
+                            <span class="flex-fill text-center py-2"><i class="bi bi-people-fill color-primary me-2"></i>30 Students</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-xl py-5" id="team">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="bg-white text-center color-primary px-3">Courses</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <div class="background-light">
+                        <div class="position-relative overflow-hidden zoom-hover">
+                            <img class="img-fluid" src="images/man1.png" alt="">
+                            <div class="d-flex justify-content-center align-items-center text-center mx-auto w-100 position-relative">
+                                <div class="btn btn-light d-flex justify-content-center align-items-center" 
+                                    style="position: relative; top: -20px; width: max-content; padding: 7px 3px;">
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-facebook text-white"></i></a>
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-twitter text-white"></i></a>
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-instagram text-white"></i></a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="text-center p-4 pt-0">
+                            <h5>Instructor Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <div class="background-light">
+                        <div class="position-relative overflow-hidden zoom-hover">
+                            <img class="img-fluid" src="images/man2.png" alt="">
+                            <div class="d-flex justify-content-center align-items-center text-center mx-auto w-100 position-relative">
+                                <div class="btn btn-light d-flex justify-content-center align-items-center" 
+                                    style="position: relative; top: -20px; width: max-content; padding: 7px 3px;">
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-facebook text-white"></i></a>
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-twitter text-white"></i></a>
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-instagram text-white"></i></a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="text-center p-4 pt-0">
+                            <h5>Instructor Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <div class="background-light">
+                        <div class="position-relative overflow-hidden zoom-hover">
+                            <img class="img-fluid" src="images/man3.png" alt="">
+                            <div class="d-flex justify-content-center align-items-center text-center mx-auto w-100 position-relative">
+                                <div class="btn btn-light d-flex justify-content-center align-items-center" 
+                                    style="position: relative; top: -20px; width: max-content; padding: 7px 3px;">
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-facebook text-white"></i></a>
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-twitter text-white"></i></a>
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-instagram text-white"></i></a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="text-center p-4 pt-0">
+                            <h5>Instructor Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <div class="background-light">
+                        <div class="position-relative overflow-hidden zoom-hover">
+                            <img class="img-fluid" src="images/man4.png" alt="">
+                            <div class="d-flex justify-content-center align-items-center text-center mx-auto w-100 position-relative">
+                                <div class="btn btn-light d-flex justify-content-center align-items-center" 
+                                    style="position: relative; top: -20px; width: max-content; padding: 7px 3px;">
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-facebook text-white"></i></a>
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-twitter text-white"></i></a>
+                                    <a class="btn btn-primary mx-1" href=""><i class="bi bi-instagram text-white"></i></a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="text-center p-4 pt-0">
+                            <h5>Instructor Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-5" id="testi">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-center color-primary">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <!-- Swiper Container -->
+            <div class="swiper swiper-slider position-relative">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonial-box text-center">
+                        <img class="border rounded-circle p-2 mx-auto mb-3" src="images/testimoni1.png" width="100" height="100">
+                        <h5 class="mb-0">Client Name</h5>
+                        <p>Profession</p>
+                        <div class="text-center p-4 mx-3">
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonial-box text-center">
+                        <img class="border rounded-circle p-2 mx-auto mb-3" src="images/testimoni2.png" width="100" height="100">
+                        <h5 class="mb-0">Client Name</h5>
+                        <p>Profession</p>
+                        <div class="text-center p-4 mx-3">
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonial-box text-center">
+                        <img class="border rounded-circle p-2 mx-auto mb-3" src="images/testimoni3.png" width="100" height="100">
+                        <h5 class="mb-0">Client Name</h5>
+                        <p>Profession</p>
+                        <div class="text-center p-4 mx-3">
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonial-box text-center">
+                        <img class="border rounded-circle p-2 mx-auto mb-3" src="images/testimoni4.png" width="100" height="100">
+                        <h5 class="mb-0">Client Name</h5>
+                        <p>Profession</p>
+                        <div class="text-center p-4 mx-3">
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+            </div>
+            <div class="swiper-pagination position-relative" style="top: 25px;"></div>
+        </div>
+    </div>
+
+    <div class="bg-dark py-5" id="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-3">
+                    <ul>
+                        <h3 class="text-white">Quick Link</h3>
+                        <li class="text-white list-unstyled mt-2"><i class="bi bi-arrow-right-short text-white position-relative" style="top: 3px;"></i>About Us</li>
+                        <li class="text-white list-unstyled mt-2"><i class="bi bi-arrow-right-short text-white position-relative" style="top: 3px;"></i>Contact Us</li>
+                        <li class="text-white list-unstyled mt-2"><i class="bi bi-arrow-right-short text-white position-relative" style="top: 3px;"></i>Privacy Policy</li>
+                        <li class="text-white list-unstyled mt-2"><i class="bi bi-arrow-right-short text-white position-relative" style="top: 3px;"></i>Terms & Conditions</li>
+                        <li class="text-white list-unstyled mt-2"><i class="bi bi-arrow-right-short text-white position-relative" style="top: 3px;"></i>FAQs & Help</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <h3 class="text-white">Contact</h3>
+                        <li class="text-white list-unstyled mt-2"><i class="bi bi-geo-alt-fill text-white position-relative me-2" style="top: 3px;"></i>123 Street, New York, USA</li>
+                        <li class="text-white list-unstyled mt-2"><i class="bi bi-telephone-fill text-white position-relative me-2" style="top: 3px;"></i>+012 345 67890</li>
+                        <li class="text-white list-unstyled mt-2"><i class="bi bi-envelope-fill text-white position-relative me-2" style="top: 3px;"></i>info@example.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <h3 class="text-white">Gallery</h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="group-image-gallery mb-2">
+                                    <img src="images/gallery1.png" alt="" class="p-1 bg-light" width="70">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="group-image-gallery mb-2">
+                                    <img src="images/gallery2.png" alt="" class="p-1 bg-light" width="70">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="group-image-gallery mb-2">
+                                    <img src="images/gallery3.png" alt="" class="p-1 bg-light" width="70">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="group-image-gallery mb-2">
+                                    <img src="images/gallery3.png" alt="" class="p-1 bg-light" width="70">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="group-image-gallery mb-2">
+                                    <img src="images/gallery2.png" alt="" class="p-1 bg-light" width="70">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="group-image-gallery mb-2">
+                                    <img src="images/gallery1.png" alt="" class="p-1 bg-light" width="70">
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <h3 class="text-white">Newsletter</h3>
+                        <span class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.</span>
+                        <div class="position-relative mt-3">
+                            <input class="form-control border-0 py-3 ps-4 pe-5" placeholder="Your email">
+                            <button class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2 text-white">SignUp</button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-4">
+            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                <div class="group-left">
+                    <span class="text-white">© Your Site Name, All Right Reserved. Designed By HTML Codex</span>
+                </div>
+                <div class="group-right">
+                    <div class="d-flex align-items-center justify-content-between" style="width: 15rem;">
+                        <span class="flex-fill text-center text-white border-end my-2">Home</span>
+                        <span class="flex-fill text-center text-white border-end my-2">Cookies</span>
+                        <span class="flex-fill text-center text-white border-end my-2">Help</span>
+                        <span class="flex-fill text-center text-white my-2">FAQs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+      
+        var swiper = new Swiper('.swiper-slider', {
+          loop: true,
+          autoplay: {
+            delay: 3000,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+          }
+        });
+    </script>
+    <script>
+        var swiper = new Swiper('.header-banner-slider', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true,
+            }
+        });
+        
+    </script>
+      
+</body>
+</html>

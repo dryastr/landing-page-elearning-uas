@@ -1,0 +1,237 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --primary: #06BBCC!important;
+    --light: #F0FBFC!important;
+    --dark: #181d38!important;
+}
+
+* {
+    color: var(--dark)!important;
+    font-family: 'Heebo', sans-serif!important;
+}
+
+.navbar {
+    top: 0;
+    z-index: 1030;
+}
+
+.navbar-brand h2 {
+    color: var(--primary);
+    font-size: 24px;
+    margin: 0;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary);
+}
+
+.navbar-toggler {
+    border-color: #ccc;
+}
+
+.dropdown-menu {
+    background-color: white;
+    border-radius: 0;
+    margin-top: 0px;
+}
+
+.navbar .nav-item .dropdown-menu {
+    display: none;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+
+.navbar .nav-item:hover .nav-link {
+    color: var(--primary); 
+}
+
+.btn-primary {
+    background-color: var(--primary)!important;
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.color-primary {
+    color: var(--primary)!important;
+}
+
+.ml-3 {
+    margin-left: 15px;
+}
+
+.header-banner {
+    position: relative;
+    min-height: 100vh;
+}
+
+.header-banner img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-banner .position-absolute {
+    background: rgba(24, 29, 56, .7);
+}
+
+@media (max-width: 768px) {
+    .header-banner {
+        min-height: 500px;
+    }
+    .group-pagination{
+        top: 13rem!important;
+    }
+}
+
+.bg-c-primary{
+    background-color: var(--primary)!important;
+}
+
+.btn-primary {
+    background-color: var(--primary)!important;
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.btn-light {
+    background-color: var(--light)!important;
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.color-primary {
+    color: var(--primary)!important;
+}
+
+@media (max-width: 990px) {
+    .navbar-p {
+        padding: 10px 25px!important;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar-p {
+        padding: 0!important;
+    }
+}
+
+.size-icon{
+    font-size: 4.5rem;
+}
+
+
+.feature-card {
+    background: var(--light);
+    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.feature-card:hover {
+    background: var(--primary);
+    color: #fff; 
+    transform: translateY(-10px) scale(1.05)!important;
+    transition: transform .3s ease, background .3s ease, color .3s ease!important;
+}
+
+.feature-card:hover .heading,
+.feature-card:hover p,
+.feature-card:hover i {
+    color: #fff!important;
+}
+
+.size-icon {
+    font-size: 3rem;
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+.position-icon-arrow{
+    position: relative;
+    top: 3px;
+}
+
+.img-categories{
+    width: -webkit-fill-available;
+}
+
+.zoom-hover {
+    overflow: hidden;
+}
+
+.zoom-hover img {
+    transition: transform 0.5s ease;
+    transform: scale(1);
+}
+
+.zoom-hover:hover img {
+    transform: scale(1.1); 
+}
+
+.background-light{
+    background: var(--light)!important;
+}
+
+
+.swiper-pagination-bullet {
+    width: 20px!important; 
+    height: 20px!important;
+    background: transparent!important; 
+    border: 2px solid #ccc!important; 
+    border-radius: 0!important; 
+    opacity: 1!important; 
+}
+
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primary)!important; 
+    border-color: var(--primary)!important; 
+}
+
+
+.swiper-pagination-bullet:hover {
+    background-color: rgba(0, 0, 0, 0.1)!important; 
+}
+
+.swiper-button-next, .swiper-button-prev{
+    width: -1!important; 
+    height: -1!important; 
+    margin-top: 0!important; 
+    position: static!important;
+    top: 0!important;
+    padding: 20px;
+    border: 1px solid #fff;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after{
+    color: #fff;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    font-size: 25px!important;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 25px!important;
+}
+
+.group-pagination{
+    position: absolute;
+    right: 60px;
+    top: 20rem;
+    z-index: 10;
+}
